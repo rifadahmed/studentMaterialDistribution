@@ -1,0 +1,150 @@
+body{
+	margin :0;
+	padding: 0;
+	background :url(new_campus_pic_3.jpg); 
+	background-size: cover;
+	font-family :sans-serif;
+	}
+	
+	.signupbox{
+		
+		width:380px;
+		height: 800px;
+		background: #000;
+		color:#fff;
+		top: 50%;
+		left: 50%;
+		position: absolute;
+		transform: translate(-50%,-50%);
+		box-sizing: border-box;
+		padding: 50px 30px;
+		background: rgba(0,0,0,.4);
+		box-shadow:0 15px 25px rgba(0,0,0,.3);
+		border-radius: 20px;
+		
+	}
+	
+	.avator{
+		width : 100px;
+		height:100px;
+		position: absolute;
+		border-radius:50%;
+		top: -50%;
+		left: calc(50% -50px);
+		
+	}
+	
+	 .signupbox h2{
+		
+		margin :0 0 30px;
+		padding: 0;
+		text-align:center;
+		font-size:21px;
+		color:#fff;
+		
+	}
+	.signupbox .inputbox{
+		position: relative;
+		
+		
+	}
+	.signupbox p{
+		text-align:center;
+		color:#fff;
+	}
+	.signupbox a{
+		text-align:center;
+		color:#fff;
+		
+		
+		
+	}
+	
+	
+	.signupbox .inputbox input{
+		width:100%;
+		padding:10px 0;
+		font-size:16px;
+		color:#fff;
+		margin-bottom:30px;
+		border:none;
+		border-bottom:1px solid #fff;
+		outline:none;
+		background:transparent;
+		
+		
+	}
+	.signupbox .inputbox label{
+		
+		position: absolute;
+		top:0;
+		left:0;
+		padding:10px0;
+		font-size:16px;
+		color:#fff;
+		pointer-events: none;
+		transition:.5s;
+		
+	}
+	
+	.signupbox .inputbox input:focus ~ label,
+	.signupbox .inputbox input:valid ~ label
+	{
+		
+		top: -18px;
+		left: 0;
+		color:#00bfff;
+		font-size:15px;
+	}
+	
+	.signupbox .selectbox select{
+		width:100%;
+		padding:1px 0;
+		font-size:14px;
+		color:#fff;
+		margin-bottom:30px;
+		border:none;
+		border-bottom:1px solid #fff;
+		outline:none;
+		background:transparent;
+		
+		
+	}
+	.signupbox .selectbox label{
+		
+		position: absolute;
+		top:0;
+		left:0;
+		padding:2px 0;
+		font-size:14px;
+		color:#fff;
+		pointer-events: none;
+		transition:.5s;
+		
+	}
+	
+
+	
+	.signupbox pre{
+		top: -20px;
+		left: 0;
+		color:#00bfff;
+		font-size:18px;
+		
+		
+	}
+	
+	.signupbox input[type="submit"]
+	{
+		background:trasparent;
+		border-bottom:none;
+		outline:none;
+		color:#fff;
+		background:#00bfff;
+		padding:10px 20px;
+		cursor:pointer;
+		bolder-radius:5px;
+		
+	}
+	
+	

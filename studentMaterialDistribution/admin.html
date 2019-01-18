@@ -1,0 +1,47 @@
+
+<!doctype html>
+<html>
+<head>
+<title>
+WELCOME TO ADMIN PANEL 
+</title>
+
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+
+<body>
+<div 
+ class="loginbox">
+ <h2>WELCOME TO AIUB ADMIN PANEL </h2>
+
+
+	<?php
+	echo $_SESSION['access'];
+	?>
+
+
+	<a href="showStudentInfo.php"> 
+	<p style="text-align:center;">STUDENT LIST </p>
+	</a>
+	
+	<a href="chooseDept.php"> 
+	<p style="text-align:center;">SHOW RESOURCE </p>
+	</a>
+	
+    <a href="addResource.php"> 
+	<p style="text-align:center;">ADD RESOURCE </p>
+	</a>
+	
+	<a href="showReport.php"> 
+	<p style="text-align:center;">MESSAGE LIST </p>
+	</a>
+	
+	<a href="welcome.html"> 
+	<p style="text-align:center;">LOG-OUT </p>
+	</a>
+	</div>
+		
+			
+</body>
+</html>
